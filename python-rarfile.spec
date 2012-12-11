@@ -41,3 +41,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc FAQ LICENSE NEWS README
 %py_sitedir/%{module}*
+
+
+%changelog
+* Wed Sep 05 2012 Lev Givon <lev@mandriva.org> 2.5-1
++ Revision: 816360
+- imported package python-rarfile
+
