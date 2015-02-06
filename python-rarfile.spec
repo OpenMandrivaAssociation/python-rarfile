@@ -3,7 +3,7 @@
 Summary:	RAR archive reader for Python
 Name:		python-%{module}
 Version:	2.6
-Release:	1
+Release:	2
 Source0:	https://pypi.python.org/packages/source/r/rarfile/rarfile-%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
