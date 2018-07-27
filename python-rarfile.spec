@@ -9,6 +9,7 @@ License:	ISC
 Group:		Development/Python
 Url:		https://github.com/markokr/rarfile/
 BuildArch:	noarch
+BuildRequires:	python-setuptools
 Requires:	unrar
 
 %description
