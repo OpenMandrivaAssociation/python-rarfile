@@ -2,8 +2,8 @@
 
 Summary:	RAR archive reader for Python
 Name:		python-%{module}
-Version:	2.6
-Release:	2
+Version:	3.0
+Release:	1
 Source0:	https://pypi.python.org/packages/source/r/rarfile/rarfile-%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
@@ -22,7 +22,7 @@ similar to that of the zipfile module.
 %__python setup.py build 
 
 %install
-PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
+PYTHONDONTWRITEBYTECODE=1 %__python setup.py install --root=%{buildroot}
 
 %clean
 
