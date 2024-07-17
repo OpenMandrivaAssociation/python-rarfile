@@ -2,7 +2,7 @@
 
 Summary:	RAR archive reader for Python
 Name:		python-%{module}
-Version:	4.1
+Version:	4.2
 Release:	1
 Source0:	https://pypi.python.org/packages/source/r/rarfile/rarfile-%{version}.tar.gz
 License:	ISC
