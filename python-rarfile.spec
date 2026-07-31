@@ -2,8 +2,8 @@
 
 Summary:	RAR archive reader for Python
 Name:		python-%{module}
-Version:	4.2
-Release:	3
+Version:	4.4
+Release:	1
 Source0:	https://pypi.python.org/packages/source/r/rarfile/rarfile-%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
@@ -17,7 +17,7 @@ This is a Python module for RAR archive reading. The interface is
 similar to that of the zipfile module.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n rarfile-4.4
 
 %build
 %__python setup.py build 
